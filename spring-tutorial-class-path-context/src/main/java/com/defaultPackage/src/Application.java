@@ -24,7 +24,7 @@ public class Application {
 		//the xml beans is.
 		Person person = (Person)context.getBean("person");
 		person.speak();
+		System.out.println("Person: " +person);
 		((ClassPathXmlApplicationContext)context).close();
 	}
-
 }
