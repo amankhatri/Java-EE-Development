@@ -26,5 +26,6 @@ public class Application {
 		person.speak();
 		System.out.println("Person: " +person);
 		((ClassPathXmlApplicationContext)context).close();
+	/**/
 	}
 }

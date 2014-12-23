@@ -7,5 +7,7 @@
 	<bean id="person" class="com.defaultPackage.src.Person">
 		<constructor-arg value="777 " index="0" name="id"></constructor-arg>
 		<constructor-arg value="Mary" index="1" name="name"></constructor-arg>
+		<property name="taxId" value="123"></property>
+		
 	</bean>
 </beans>
